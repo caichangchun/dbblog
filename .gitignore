@@ -30,3 +30,4 @@ generator.xml
 ### VS Code ###
 .vscode/
 /bin/
+package-lock.json
