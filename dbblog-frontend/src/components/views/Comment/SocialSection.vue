@@ -27,12 +27,12 @@ export default {
       this.$nextTick(() => {
         // eslint-disable-next-line no-undef
         var gitalk = new Gitalk({
-          clientID: '99f1f6c035e5cae0df50',
-          clientSecret: 'f0e76c80642d88e283e0dc00f9a6c013c2068310',
-          repo: 'dbblog_comment',
-          owner: 'llldddbbb',
+          clientID: 'ec6c698420b1118dc707',
+          clientSecret: '930c9a515d10281dd74ffa14d2e70ce50aabb03e',
+          repo: 'cccblog_comment',
+          owner: 'caichangchun',
           labels: [this.type],
-          admin: ['llldddbbb'],
+          admin: ['caichangchun'],
           id: location.href, // Ensure uniqueness and length less than 50
           distractionFreeMode: false // Facebook-like distraction free mode
         })
