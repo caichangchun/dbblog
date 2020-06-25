@@ -3,7 +3,7 @@
     <p class="copyright">
       <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030402003832"
          style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
-        <img src="static/img/beian.png" style="float:left;"/>
+        <img src="/static/img/beian.png" style="float:left;"/>
         粤公网安备 44030402003832号
       </a>
       <span>|</span>
