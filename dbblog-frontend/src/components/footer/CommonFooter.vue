@@ -1,10 +1,10 @@
 <template>
   <div class="common-footer">
     <p class="copyright">
-      <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030402003832"
-         style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
-        <img src="/static/img/beian.png" style="float:left;"/>
-        粤公网安备 44030402003832号
+      <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030402003832" target="_blank"
+         class="beian">
+        <img src="/static/img/beian.png"/>
+        {{ siteInfo.beian }}
       </a>
       <span>|</span>
       <a href="http://www.beian.miit.gov.cn/" target="_blank">{{ siteInfo.icp }}</a>
@@ -21,6 +21,7 @@ export default {
   data () {
     return {
       siteInfo: {
+        beian: '粤公网安备 44030402003832号',
         icp: '粤ICP备 20048117号',
         copyright: '版权所有 © 2018 - 2020',
         copyright_desc: '以商业目的使用本网站内容需获许可，非商业目的使用授权遵循CC BY-NC 4.0'
@@ -32,6 +33,11 @@ export default {
 
 <style lang="stylus" rel="stylesheet/stylus">
   @import "../../common/stylus/theme.styl"
+  .beian
+    display: inline-block
+    text-decoration: none
+    height: 20px
+    line-height: 20px
   .common-footer
     font-weight 300
     line-height 25px
@@ -55,4 +61,7 @@ export default {
         color $default-link-color
         &:hover
           color $default-link-hover-color
+
+      img
+        float: left
 </style>
