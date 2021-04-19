@@ -7,7 +7,7 @@
         {{ siteInfo.beian }}
       </a>
       <span>|</span>
-      <a href="http://www.beian.miit.gov.cn/" target="_blank">{{ siteInfo.icp }}</a>
+      <a href="https://beian.miit.gov.cn/" target="_blank">{{ siteInfo.icp }}</a>
       <span>|</span>
       {{ siteInfo.copyright }}
       <span>|</span>
